@@ -1,0 +1,78 @@
+.show-summary-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .show-summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .show-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .book-ticket-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .book-ticket-button:hover {
+    background-color: #d10811;
+  }
+  
+  .show-summary-details {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .show-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .show-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .show-language,
+  .show-genres,
+  .show-premiered,
+  .show-rating {
+    margin-bottom: 10px;
+  }
+  
+  .show-summary-summary {
+    margin-bottom: 20px;
+  }
+  
+  .summary-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .show-summary {
+    line-height: 1.5;
+  }
+  
